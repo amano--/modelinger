@@ -22,7 +22,11 @@
       "~src/*": [
         "./src/*"
       ]
-    }
+    },
+    "typeRoots": [
+      "node_modules/@types",
+      "node_modules/@typed-mxgraph"
+    ]
   },
   "exclude": [
     "node_modules",
