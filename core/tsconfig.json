@@ -4,6 +4,7 @@
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
+    
     "strict": false,
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
@@ -12,13 +13,17 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "preserve",
+    "jsx": "react",
     "baseUrl": ".",
     "paths": {
       "~/*": ["./src/*"],
       "~auto/*": ["./auto/*"],
       "~mock/*": ["./mock/*"],
-    }
+    },
+    "typeRoots": [
+      "node_modules/@types",
+      "node_modules/@typed-mxgraph"
+    ]
   },
   "exclude": ["node_modules"],
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]

@@ -1,6 +1,6 @@
 {
   "functional component": {
-    "scope": "typescriptreact,javascriptreact ",
+    "scope": "typescript,typescriptreact,javascriptreact ",
     "prefix": "fc",
     "body": [
       "type ${1:componentName}Props = { hoge: string }",
@@ -38,7 +38,7 @@
   },
 
   "jest describe template": {
-    "scope": "typescriptreact,javascriptreact ",
+    "scope": "typescript,typescriptreact,javascriptreact ",
     "prefix": "desc",
     "body":["describe('simple test', () => {",
       "  it('dom draw', () => {",
@@ -54,16 +54,16 @@
   },
 
   "lodash": {
-    "scope": "typescriptreact,javascriptreact ",
+    "scope": "typescript,typescriptreact,javascriptreact ",
     "prefix": "lodash",
     "body": [
-      "import { isString } as _ from 'lodash'"
+      "import { isString } from 'lodash'"
     ],
     "description": "lodash import statement"
   },
 
   "style": {
-    "scope": "typescriptreact,javascriptreact ",
+    "scope": "typescript,typescriptreact,javascriptreact ",
     "prefix": "style",
     "body": [
       "style={{",
@@ -77,7 +77,7 @@
   },
 
   "switch": {
-    "scope": "typescriptreact,javascriptreact ",
+    "scope": "typescript,typescriptreact,javascriptreact ",
     "prefix": "switc",
     "body":["switch (type) {",
 "    case '':",
@@ -94,7 +94,7 @@
 },
 
 "storybook_story_boilerplate": {
-  "scope": "typescriptreact,javascriptreact ",
+  "scope": "typescript,typescriptreact,javascriptreact ",
   "prefix": "story",
   "body": [
     "import React from 'react'",
@@ -117,4 +117,3 @@
   "description": "Storybook story boilerplate"
 }
 }
-
