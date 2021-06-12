@@ -53,11 +53,12 @@ const mxCell_js = (container: HTMLElement) => {
       var node = doc.createElement("MyMyNode");
       node.setAttribute("label", "MyMyLabel");
       node.setAttribute("attribute1", "VVavalue1");
-      graph.insertVertex(graph.getDefaultParent(), null, node, 40, 40, 80, 30);
+      const parent = graph.getDefaultParent();
+      graph.insertVertex(parent, null, node, 40, 40, 80, 30);
 
-      // var v1 = graph.insertVertex(parent, null, "Hello2,", 20, 20, 80, 30);
-      // var v2 = graph.insertVertex(parent, null, "World2!", 200, 150, 80, 30);
-      // var e1 = graph.insertEdge(parent, null, "", v1, v2);
+      var v1 = graph.insertVertex(parent, null, "Hello2,", 20, 20, 80, 30);
+      var v2 = graph.insertVertex(parent, null, "World2!", 200, 150, 80, 30);
+      var e1 = graph.insertEdge(parent, null, "", v1, v2);
     } finally {
       // Updates the display
       graph.getModel().endUpdate();
