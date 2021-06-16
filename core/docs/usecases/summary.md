@@ -26,13 +26,13 @@
 ```ts
 // id,label を設定。 id はファイル名、ラベルはリンク等に使用
 file('summary','設計概要'){
+  // 配置は 3x3 の 9マス位を想定
   sheet('main_summary','主要クラス概要'){
     // 関連を追う深さ(depth)等 の デフォルト値を上書きしたかったら下記のように設定する
-    center(Center,{depth:3})
+    center(Center,{depth:2})
   }
 
-  sheet('hoge','Hogeクラス概要'){
-    // 配置は 3x3 の 9マス位を想定
+  sheet('hoge','Topクラス概要'){
     center(Top)
     right(TopRight)
     left(TopLeft)

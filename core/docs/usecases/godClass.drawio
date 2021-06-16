@@ -1,0 +1,176 @@
+<mxfile>
+    <diagram id="RpFYmOD_BcnMsxDmFIyq" name="Godクラス概要">
+        <mxGraphModel dx="1121" dy="481" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="EcerAdRlv5QST3N77vF3-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="5" target="x2cy4W83olCkN1aDR5FC-14" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="EcerAdRlv5QST3N77vF3-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="5" target="x2cy4W83olCkN1aDR5FC-13" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="EcerAdRlv5QST3N77vF3-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="5" target="x2cy4W83olCkN1aDR5FC-7" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="EcerAdRlv5QST3N77vF3-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="5" target="x2cy4W83olCkN1aDR5FC-12" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="5" target="6">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="670" y="330"/>
+                            <mxPoint x="670" y="292"/>
+                            <mxPoint x="460" y="292"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="5" target="7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5" target="8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="5" target="14">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="God" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="640" y="330" width="120" height="54" as="geometry"/>
+                </mxCell>
+                <mxCell id="VGb1HKfdGrYk4eSlHwAQ-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="x2cy4W83olCkN1aDR5FC-7" target="26">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="VGb1HKfdGrYk4eSlHwAQ-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="x2cy4W83olCkN1aDR5FC-7" target="VGb1HKfdGrYk4eSlHwAQ-35">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="VGb1HKfdGrYk4eSlHwAQ-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="x2cy4W83olCkN1aDR5FC-7" target="VGb1HKfdGrYk4eSlHwAQ-36">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="x2cy4W83olCkN1aDR5FC-7" value="&lt;a href=&quot;https://ja.wikipedia.org/wiki/%E3%82%AC%E3%83%96%E3%83%AA%E3%82%A8%E3%83%AB&quot; title=&quot;ガブリエル&quot; style=&quot;color: rgb(6 , 69 , 173) ; background-image: none ; font-family: sans-serif ; font-size: 15.104px ; font-weight: 400&quot;&gt;ガブリエル&lt;/a&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="640" y="200" width="120" height="54" as="geometry"/>
+                </mxCell>
+                <mxCell id="x2cy4W83olCkN1aDR5FC-12" value="&lt;a href=&quot;https://ja.wikipedia.org/wiki/%E3%83%A9%E3%83%9F%E3%82%A8%E3%83%AB&quot; title=&quot;&quot; style=&quot;color: rgb(6 , 69 , 173) ; background-image: none ; font-family: sans-serif ; font-size: 15.104px ; font-weight: 400&quot;&gt;レミエル&lt;/a&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="640" y="480" width="120" height="54" as="geometry"/>
+                </mxCell>
+                <mxCell id="x2cy4W83olCkN1aDR5FC-13" value="&lt;a href=&quot;https://ja.wikipedia.org/wiki/%E3%82%A6%E3%83%AA%E3%82%A8%E3%83%AB&quot; title=&quot;ウリエル&quot; style=&quot;color: rgb(6 , 69 , 173) ; background-image: none ; font-family: sans-serif ; font-size: 15.104px ; font-weight: 400&quot;&gt;ウリエル&lt;/a&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="400" y="330" width="120" height="54" as="geometry"/>
+                </mxCell>
+                <mxCell id="x2cy4W83olCkN1aDR5FC-14" value="&lt;a href=&quot;https://ja.wikipedia.org/wiki/%E3%83%A9%E3%82%B0%E3%82%A8%E3%83%AB&quot; title=&quot;ラグエル&quot; style=&quot;color: rgb(6 , 69 , 173) ; background-image: none ; font-family: sans-serif ; font-size: 15.104px ; font-weight: 400&quot;&gt;ラグエル&lt;/a&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="880" y="330" width="120" height="54" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="6" target="24">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="6">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="460" y="160" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6" target="33">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="&lt;a href=&quot;https://ja.wikipedia.org/wiki/%E3%83%9F%E3%82%AB%E3%82%A8%E3%83%AB&quot; title=&quot;ミカエル&quot; style=&quot;color: rgb(6 , 69 , 173) ; background-image: none ; font-family: sans-serif ; font-size: 15.104px ; font-weight: 400&quot;&gt;ミカエル&lt;/a&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="200" width="120" height="54" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="&lt;a href=&quot;https://ja.wikipedia.org/wiki/%E3%83%A9%E3%83%95%E3%82%A1%E3%82%A8%E3%83%AB&quot; title=&quot;ラファエル&quot; style=&quot;color: rgb(6 , 69 , 173) ; background-image: none ; font-family: sans-serif ; font-size: 15.104px ; font-weight: 400&quot;&gt;ラファエル&lt;/a&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="880" y="200" width="120" height="54" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="&lt;a href=&quot;https://ja.wikipedia.org/wiki/%E3%82%B5%E3%83%AA%E3%82%A8%E3%83%AB&quot; title=&quot;サリエル&quot; style=&quot;color: rgb(6 , 69 , 173) ; background-image: none ; font-family: sans-serif ; font-size: 15.104px ; font-weight: 400&quot;&gt;ゼラキエル&lt;/a&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="480" width="120" height="54" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="&lt;ul style=&quot;list-style-image: url(&amp;#34;/w/skins/Vector/resources/common/images/bullet-icon.svg?d4515&amp;#34;) ; margin: 0.3em 0px 0px 1.6em ; padding: 0px ; color: rgb(32 , 33 , 34) ; font-family: sans-serif ; font-size: 15.104px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;li&gt;&lt;a href=&quot;https://ja.wikipedia.org/wiki/%E3%82%A2%E3%82%B6%E3%82%BC%E3%83%AB&quot; title=&quot;アザゼル&quot; style=&quot;background: none ; font-family: sans-serif ; font-size: 15.104px ; color: rgb(6 , 69 , 173)&quot;&gt;アザゼル&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://ja.wikipedia.org/wiki/%E3%82%B3%E3%82%AB%E3%83%93%E3%82%A8%E3%83%AB&quot; title=&quot;コカビエル&quot; style=&quot;background: none ; font-family: sans-serif ; font-size: 15.104px ; color: rgb(6 , 69 , 173)&quot;&gt;コカビエル&lt;/a&gt;&lt;/li&gt;&lt;li style=&quot;margin-bottom: 0.1em&quot;&gt;&lt;a href=&quot;https://ja.wikipedia.org/wiki/%E3%83%90%E3%83%A9%E3%82%AD%E3%82%A8%E3%83%AB&quot; title=&quot;バラキエル&quot; style=&quot;color: rgb(6 , 69 , 173) ; background: none&quot;&gt;バラキエル&lt;/a&gt;&lt;/li&gt;&lt;li style=&quot;margin-bottom: 0.1em&quot;&gt;&lt;a href=&quot;https://ja.wikipedia.org/wiki/%E3%82%B5%E3%82%BF%E3%83%B3#:~:text=%E3%83%A6%E3%83%80%E3%83%A4%E6%95%99%E3%80%81%E3%82%AD%E3%83%AA%E3%82%B9%E3%83%88%E6%95%99%E3%81%A7%E3%81%AF,%E3%81%A8%E3%81%BF%E3%81%AA%E3%81%95%E3%82%8C%E3%81%A6%E3%81%84%E3%82%8B%E3%80%82&quot; style=&quot;font-family: &amp;#34;arial&amp;#34; , sans-serif ; color: rgb(26 , 13 , 171) ; outline: 0px ; font-size: small&quot;&gt;サタン&amp;nbsp;&lt;/a&gt;&lt;/li&gt;&lt;li style=&quot;margin-bottom: 0.1em&quot;&gt;...&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="880" y="440" width="120" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="14" target="14">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="14" target="14">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="21" target="14">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="&lt;br&gt;&lt;br&gt;7つ以上の関連がある場合は箇条書きのような形でまとめられる。&lt;br&gt;UI的にはアコーディオン的な開閉できるようにして全部表示できたらいいかも。" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;verticalAlign=top;" vertex="1" parent="1">
+                    <mxGeometry x="1070" y="410" width="110" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="周辺に配置されるクラスは3x3 マスに配置しようとしている関係で、７つ + その他まとめ という形を取る予定で、その選択基準は、DSLからフィルター、ソートのロジックを渡せるようにする予定。&lt;br&gt;標準ロジックとしては関連が多い順にする予定" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="190" width="170" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="VGb1HKfdGrYk4eSlHwAQ-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="24" target="VGb1HKfdGrYk4eSlHwAQ-40">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="ザコ1" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="110" width="90" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="VGb1HKfdGrYk4eSlHwAQ-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="25" target="VGb1HKfdGrYk4eSlHwAQ-42">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="ザコ2" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="110" width="90" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="VGb1HKfdGrYk4eSlHwAQ-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="26" target="VGb1HKfdGrYk4eSlHwAQ-43">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="ザコ1" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="530" y="110" width="90" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="ザコ&lt;br&gt;ざこ&lt;br&gt;ザコ&lt;br&gt;..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="197" width="90" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="VGb1HKfdGrYk4eSlHwAQ-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="VGb1HKfdGrYk4eSlHwAQ-35" target="VGb1HKfdGrYk4eSlHwAQ-44">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="VGb1HKfdGrYk4eSlHwAQ-35" value="ザコ1" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="655" y="110" width="90" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="VGb1HKfdGrYk4eSlHwAQ-36" value="ザコ&lt;br&gt;ざこ&lt;br&gt;ザコ&lt;br&gt;..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="780" y="110" width="90" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="VGb1HKfdGrYk4eSlHwAQ-40" value="子ザコ&lt;br&gt;子ざこ&lt;br&gt;..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="30" width="90" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="VGb1HKfdGrYk4eSlHwAQ-42" value="子ザコ&lt;br&gt;子ざこ&lt;br&gt;..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="30" width="90" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="VGb1HKfdGrYk4eSlHwAQ-43" value="子ザコ&lt;br&gt;子ざこ&lt;br&gt;..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="530" y="30" width="90" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="VGb1HKfdGrYk4eSlHwAQ-44" value="子ザコ&lt;br&gt;子ざこ&lt;br&gt;..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="655" y="30" width="90" height="50" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="za7-rgjQO-3L8QG3GHaX" name="God周辺">
+        <mxGraphModel dx="1121" dy="481" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+            <root>
+                <mxCell id="MFhjeQkJgmKdokYvqPJl-0"/>
+                <mxCell id="MFhjeQkJgmKdokYvqPJl-1" parent="MFhjeQkJgmKdokYvqPJl-0"/>
+                <mxCell id="q_07wu75GBzhSqEgbfJ0-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="MFhjeQkJgmKdokYvqPJl-1" source="q_07wu75GBzhSqEgbfJ0-0" target="q_07wu75GBzhSqEgbfJ0-2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="q_07wu75GBzhSqEgbfJ0-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="MFhjeQkJgmKdokYvqPJl-1" source="q_07wu75GBzhSqEgbfJ0-0" target="q_07wu75GBzhSqEgbfJ0-3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="q_07wu75GBzhSqEgbfJ0-0" value="God" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="MFhjeQkJgmKdokYvqPJl-1">
+                    <mxGeometry x="480" y="240" width="120" height="54" as="geometry"/>
+                </mxCell>
+                <mxCell id="q_07wu75GBzhSqEgbfJ0-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="MFhjeQkJgmKdokYvqPJl-1" source="q_07wu75GBzhSqEgbfJ0-1" target="q_07wu75GBzhSqEgbfJ0-3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="q_07wu75GBzhSqEgbfJ0-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="MFhjeQkJgmKdokYvqPJl-1" source="q_07wu75GBzhSqEgbfJ0-1" target="q_07wu75GBzhSqEgbfJ0-2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="q_07wu75GBzhSqEgbfJ0-1" value="惨多" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="MFhjeQkJgmKdokYvqPJl-1">
+                    <mxGeometry x="480" y="110" width="120" height="54" as="geometry"/>
+                </mxCell>
+                <mxCell id="q_07wu75GBzhSqEgbfJ0-2" value="サタン" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="MFhjeQkJgmKdokYvqPJl-1">
+                    <mxGeometry x="240" y="240" width="120" height="54" as="geometry"/>
+                </mxCell>
+                <mxCell id="q_07wu75GBzhSqEgbfJ0-3" value="サンタ" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" vertex="1" parent="MFhjeQkJgmKdokYvqPJl-1">
+                    <mxGeometry x="720" y="240" width="120" height="54" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
