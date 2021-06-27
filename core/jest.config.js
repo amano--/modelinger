@@ -1,16 +1,14 @@
 module.exports = {
-  roots: ["<rootDir>/src"],
+  roots: ['<rootDir>/src'],
   moduleNameMapper: {
-    "^~/(.+)": "<rootDir>/src/$1",
-    "^~auto/(.+)": "<rootDir>/auto/$1",
-    "^~td/(.+)": "<rootDir>/testData/$1",
-    // "\\.css$": "<rootDir>/node_modules/jest-css-modules",
+    '^~/(.+)': '<rootDir>/src/$1',
+    '^~auto/(.+)': '<rootDir>/auto/$1',
+    '^~td/(.+)': '<rootDir>/testData/$1',
   },
   transform: {
-    "^.+\\.(ts|tsx)?$": "ts-jest",
+    '^.+\\.(ts|tsx)?$': 'ts-jest',
   },
-  testEnvironment: "jsdom",
-  // testing-library/jest-domのglobalな有効化
-  // 参考：https://www.npmjs.com/package/@testing-library/jest-dom
-  setupFilesAfterEnv: ["./rtl.setup.ts"],
-};
+  testEnvironment: 'jsdom',
+  // jest-dom の global な有効化
+  setupFilesAfterEnv: ['./rtl.setup.ts'],
+}

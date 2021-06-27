@@ -10,27 +10,33 @@ export type RelationTag = 'dependency' | RelationTagForSubstructual //| Relation
 
 export type Relation = { id: string; tag: RelationTag; label: string }
 
-export type LabeledMeta = {
+export type Label = {
   id: string
   name: string
   label: string
 }
 
-export type TypeDesc = { codeURL: string }
+export type LinkLabel = Label & {
+  codeURL: string
+}
 
-export type TypeMeta = LabeledMeta & {
-  desc: TypeDesc
+// export type NodeDesc = { codeURL: string }
+//vertex
+export type Node = Label & {
+  // desc: NodeDesc
   relations: readonly Relation[]
 }
 
-export type AttributeMeta = LabeledMeta
+export type TypeNode = LinkLabel & Node
 
-export type Diagram = LabeledMeta & {
+export type AttributeMeta = Label
+
+export type Diagram = Label & {
   filePath: string
   // sheets: readonly Sheet[]
 }
 
-export type Sheet = LabeledMeta & {
+export type Sheet = Label & {
   diagram: Diagram
   // sheets: readonly Sheet[]
 }
