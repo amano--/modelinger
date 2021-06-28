@@ -10,6 +10,8 @@ describe('useCounter', () => {
   class Sample{
 
   }
+
+  type Hoge ={hoge?:string}
   `
 
   let sourceFile = ts.createSourceFile('sample.ts', source, ts.ScriptTarget.ES2016, /*setParentNodes */ true)
@@ -17,7 +19,10 @@ describe('useCounter', () => {
   function each(node: ts.Node) {
     switch (node.kind) {
       case ts.SyntaxKind.ClassDeclaration:
-        classDeclaration(<ts.ClassDeclaration>node)
+        classDeclaration(node as ts.ClassDeclaration)
+        break
+      case ts.SyntaxKind.TypeAliasDeclaration:
+        typeAliasDeclaration(node as ts.TypeAliasDeclaration)
         break
       default:
         next()
@@ -29,6 +34,10 @@ describe('useCounter', () => {
   }
 
   function classDeclaration(node: ts.ClassDeclaration) {
+    console.log(node.name.text)
+  }
+
+  function typeAliasDeclaration(node: ts.TypeAliasDeclaration) {
     console.log(node.name.text)
   }
   it('simple source', () => {
