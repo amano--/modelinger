@@ -1,5 +1,7 @@
 import * as ts from 'typescript'
 
+// ref https://github.com/ktsn/ts-compiler-api-examples/blob/master/src/1-read-ast.ts
+
 const files = ['src/sandbox/core/Center.ts']
 
 describe('ast', () => {
