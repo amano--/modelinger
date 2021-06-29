@@ -9,3 +9,5 @@ type TopRight = { tag: 'topRight' }
 type Bottom = { tag: 'bottom'; left: BottomLeft; right: BottomRight }
 type BottomLeft = { tag: 'bottomLeft' }
 type BottomRight = { tag: 'bottomRight' }
+
+// const center: Center = { tag: 'center', top: { tag: 'top', left: { tag: 'topLeft' }, right: { tag: 'topRight' } } }
