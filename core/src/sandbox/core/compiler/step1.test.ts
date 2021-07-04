@@ -33,11 +33,11 @@ describe('step1', () => {
   }
 
   function classDeclaration(node: ts.ClassDeclaration) {
-    console.log(node.name.text)
+    console.log(node?.name?.text)
   }
 
   function typeAliasDeclaration(node: ts.TypeAliasDeclaration) {
-    console.log(node.name.text)
+    console.log(node?.name?.text)
   }
   it('simple source', () => {
     ts.forEachChild(src, each)
