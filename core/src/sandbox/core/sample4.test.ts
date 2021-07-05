@@ -57,6 +57,7 @@ function printClassDoc(type: ts.Type, ctorSymbol: ts.Symbol): string {
   // Print properties
   type.getProperties().forEach((p) => {
     buf += '\n- ' + serializeSymbol(p)
+    if (p.name === 'refSample') console.log('refSample=', p)
   })
 
   return buf + '\n'

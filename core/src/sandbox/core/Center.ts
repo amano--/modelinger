@@ -1,6 +1,7 @@
 import { isString } from 'lodash'
+import { RefSample } from './RefSample'
 
-export type Center = { tag: 'center'; top: Top; bottom: Bottom }
+export type Center = { tag: 'center'; top: Top; bottom: Bottom; refSample?: RefSample }
 
 type Top = { tag: 'top'; left: TopLeft; right: TopRight }
 type TopLeft = { tag: 'topLeft' }
